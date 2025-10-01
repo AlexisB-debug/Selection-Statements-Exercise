@@ -35,7 +35,7 @@ namespace SelectionStatementExercise
                     Console.WriteLine("Invalid Input");
                 }
             }
-            // Why won't my C# program execute the next loop after the previous loop terminates?
+            
             while (guess != favNumber && counter < 15)
             {
                 Console.WriteLine("Final Guess!");
