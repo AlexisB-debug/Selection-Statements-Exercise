@@ -6,45 +6,53 @@ namespace SelectionStatementExercise
     {
         static void Main(string[] args)
         {
-            int favNumber = new Random().Next(1, 100);
-            Console.WriteLine("Guess my favorite number! Hint, for this game it's an integer between 1 and 100.");
-            int guess = int.Parse(Console.ReadLine());
+            var random = new Random();
+            var favNumber = random.Next(1, 100);
+            int guess = 0;
+            int counter = 0;
+            
             //Limit my loop to 15 guesses so that the user is not allowed to play the "infinite loop game!"
-            while (index[] <= index[14])
+            while (guess != favNumber && counter < 14)
             {
-                NumberGame(favNumber);
-                index[] = index[] + 1
+                Console.WriteLine("The game is fifteen guesses! Guess my favorite number! Hint, for this game it's an integer between 1 and 100.");
+                counter = counter + 1;
+                guess = int.Parse(Console.ReadLine());
+                
+                if (guess < favNumber)
+                {
+                    Console.WriteLine($"{guess} is less than my favorite number!");
+                }
+                else if (guess > favNumber)
+                {
+                    Console.WriteLine($"{guess} is greater than my favorite number!");
+                }
+                else if (guess == favNumber)
+                {
+                    Console.WriteLine("Confetti, Glitter, & Bells");
+                }
+                else
+                {
+                    Console.WriteLine("Invalid Input");
+                }
             }
 
-            while (index[] == index[15])
+            while (guess != favNumber && counter < 1)
             {
-                NumbersSalutations(favNumber);
+                Console.WriteLine("Final Guess!");
+                counter = counter + 1;
+                guess = int.Parse(Console.ReadLine());
+                
+                if (guess == favNumber)
+                {
+                    Console.WriteLine("Confetti, Glitter, & Bells");
+                }
+                else
+                {
+                    Console.WriteLine($"My favorite number is {guess}! Keep trying and the glitter will shine and the bells ring!");
+                }
             }
-        }
 
-        static int NumberGame(int favNumber, int guess)
-        {
-            if (guess < favNumber)
-            {
-                return Console.WriteLine($"{guess} is less than my favorite number!");
-            }
-            else if (guess > favNumber)
-            {
-                return Console.WriteLine($"{guess} is greater than my favorite number!");
-            }
-            else if (guess == favNumber)
-            {
-                return Console.WriteLine("Confetti, Glitter, & Bells");
-                yield break;
-            }
-        }
 
-        static int NumbersSalutations(int favNumber, int guess)
-        {
-            if (guess == favNumber)
-                return Console.WriteLine("Confetti, Glitter, & Bells");
-            else if (guess !== favNumber)
-                return Console.WriteLine($"Sorry, your out of guesses. My favorite number is {guess}");
         }
     }
 }

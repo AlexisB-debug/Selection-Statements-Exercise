@@ -21,3 +21,10 @@ C:\Users\Alexi\Repos\Selection-Statements-Exercise\SelectionStatementExercise\ob
 C:\Users\Alexi\Repos\Selection-Statements-Exercise\SelectionStatementExercise\obj\Debug\net9.0\SelectionStatementExercise.dll
 C:\Users\Alexi\Repos\Selection-Statements-Exercise\SelectionStatementExercise\obj\Debug\net9.0\refint\SelectionStatementExercise.dll
 C:\Users\Alexi\Repos\Selection-Statements-Exercise\SelectionStatementExercise\obj\Debug\net9.0\SelectionStatementExercise.pdb
+C:\Users\Alexi\Repos\Selection-Statements-Exercise\SelectionStatementExercise\bin\Debug\net9.0\SelectionStatementExercise.exe
+C:\Users\Alexi\Repos\Selection-Statements-Exercise\SelectionStatementExercise\bin\Debug\net9.0\SelectionStatementExercise.deps.json
+C:\Users\Alexi\Repos\Selection-Statements-Exercise\SelectionStatementExercise\bin\Debug\net9.0\SelectionStatementExercise.runtimeconfig.json
+C:\Users\Alexi\Repos\Selection-Statements-Exercise\SelectionStatementExercise\bin\Debug\net9.0\SelectionStatementExercise.dll
+C:\Users\Alexi\Repos\Selection-Statements-Exercise\SelectionStatementExercise\bin\Debug\net9.0\SelectionStatementExercise.pdb
+C:\Users\Alexi\Repos\Selection-Statements-Exercise\SelectionStatementExercise\obj\Debug\net9.0\SelectionStatementExercise.genruntimeconfig.cache
+C:\Users\Alexi\Repos\Selection-Statements-Exercise\SelectionStatementExercise\obj\Debug\net9.0\ref\SelectionStatementExercise.dll
