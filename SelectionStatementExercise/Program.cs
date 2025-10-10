@@ -33,15 +33,15 @@ namespace SelectionStatementExercise
                 // }while(!guessIsAnInteger);
                 
                 
-                if (guess < favNumber && counter <= 13)
+                if (guess < favNumber && counter < 14)
                 {
                     Console.WriteLine($"{guess} is less than my favorite number!");
                 }
-                else if (guess > favNumber && counter <= 13)
+                else if (guess > favNumber && counter < 14)
                 {
                     Console.WriteLine($"{guess} is greater than my favorite number!");
                 }
-                else if (guess == favNumber && counter <= 14)
+                else if (guess == favNumber && counter < 14)
                 {
                     Console.WriteLine("Confetti, Glitter, & Bells");
                     break;
@@ -61,10 +61,10 @@ namespace SelectionStatementExercise
                     Console.WriteLine("Confetti, Glitter, & Bells");
                     break;
                 }
-                else
-                {
-                    Console.WriteLine("Invalid Input");
-                }
+                // else
+                // {
+                //     Console.WriteLine("Invalid Input");
+                // }
             }
         }
     }
