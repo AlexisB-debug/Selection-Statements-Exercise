@@ -9,8 +9,6 @@ namespace SelectionStatementExercise
             var random = new Random();
             bool playAgain = true;
             
-            //How to create a tryparse range between 0 and 101?
-            
             do
             {
                 var favNumber = random.Next(1, 100);
