@@ -23,7 +23,7 @@ namespace SelectionStatementExercise
                     while (!int.TryParse(Console.ReadLine(), out guess) || guess < 1 || guess > 100)
                     {
                         Console.WriteLine("Invalid Input; Type an integer between 1 and 100 inclusive.");
-                        Console.WriteLine($"Guess {counter}/15: Type your guess!");
+                        Console.WriteLine($"Guess {++counter}/15: Type your guess!");
                     }
 
                     if (guess < favNumber)
@@ -43,7 +43,7 @@ namespace SelectionStatementExercise
 
                 if (guess != favNumber)
                 {
-                    Console.WriteLine($"Guess Over, My favorite number is {favNumber}!\nKeep trying & the glitter will shine & the bells will ring!");
+                    Console.WriteLine($"Game Over, My favorite number is {favNumber}!\nKeep trying & the glitter will shine & the bells will ring!");
                 }
                 Console.WriteLine("Play again?\nType yes or no");
                 string playAgainInput = Console.ReadLine().ToLower();
